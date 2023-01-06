@@ -3,7 +3,7 @@ import { Stack } from "@mui/material";
 
 import { categories } from "../../utils/Constant";
 
-const Categories = ({ selectedCategory, setSelectedCategory }) => (
+const Categories = ({ selectedCategory, SetSelectedCategory }) => (
     <Stack
         direction="row"
         sx={{
@@ -15,7 +15,7 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => (
         {categories.map((category) => (
             <button
                 className="category-btn"
-                onClick={() => setSelectedCategory(category.name)}
+                onClick={() => SetSelectedCategory(category.name)}
                 style={{
                     background: category.name === selectedCategory && "#2a4589",
                     color: "white",
