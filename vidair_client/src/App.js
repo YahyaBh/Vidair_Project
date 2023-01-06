@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Routes, Route } from 'react-router-dom/BrowserRouter';
+import { Routes, Route } from 'react-router-dom';
 import { Box } from '@mui/material';
 
 
