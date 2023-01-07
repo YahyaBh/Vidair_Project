@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
 html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.backgound {
+  -webkit-background-position: center !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.ibb.co/WpMQkqK/5211718.jpg');
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
 }
 
 a {
@@ -113,4 +126,44 @@ a {
   align-items: center;
   background-color: #000000a6;
   backdrop-filter: blur(20px);
+}
+
+
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a4593 #bcc9eb;
+}
+
+*::-webkit-scrollbar {
+  width: 21px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #bcc9eb;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2a4593;
+  border-radius: 50px;
+  border: 8px none #ffffff;
+}
+
+
+
+.video-card {
+  transition: all .5s ease !important;
+  object-fit: cover;
+  background-color: #1e1e1e;
+  outline: solid 5px #1e1e1e !important;
+  border: 5px solid #1e1e1e !important;
+  outline-offset: -8px; 
+}
+
+.video-card:hover {
+  box-shadow: 0 0 20px 10px black;
+  transform: scale(1.05);
+  z-index: 6;
+  border-radius: 8px;
 }

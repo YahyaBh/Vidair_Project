@@ -10,7 +10,7 @@ function App() {
   return (
     <Fragment>
 
-      <Box sx={{ backgroundImage: "url(./Images/5211718.jpg)" , backdropFilter : 'blur(4px)' }}>
+      <Box className='backgound'>
         <Navbar />
 
         <Routes>

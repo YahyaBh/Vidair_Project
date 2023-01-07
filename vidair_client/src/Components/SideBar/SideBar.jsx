@@ -8,7 +8,7 @@ const Categories = ({ selectedCategory, SetSelectedCategory }) => (
         direction="row"
         sx={{
             overflowY: "auto",
-            height: { sx: "auto", md: "95%" },
+            height: { sx: "auto", md: "82vh" },
             flexDirection: { md: "column" },
         }}
     >

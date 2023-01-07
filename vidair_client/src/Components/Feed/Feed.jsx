@@ -34,7 +34,7 @@ function Feed() {
           <Box sx={{
             height: { sx: 'auto', md: '92vh' },
             borderRight: '1px solid #3d3d3d',
-            px: { sx: 0, md: 2 },
+            px: { sx: 0, md: '7px' },
             backgroundColor: 'black',
             width: '200px'
 
@@ -44,7 +44,7 @@ function Feed() {
               SetSelectedCategory={SetSelectedCategory}
             />
             <Typography className='copyright' variant='body2' sx={{ mt: 1.5, color: '#fff' }}>
-              Copyright 2023 VidAir
+              <span color='gray' style={{opacity : ".3" , textAlign : 'center'}}>Copyright 2023 VidAir&#169;</span>
             </Typography>
           </Box>
 
